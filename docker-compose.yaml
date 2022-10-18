@@ -15,7 +15,7 @@ services:
           - shubhamnw
         depends_on:
           - "shubham.pg"
-  shubham,pg:
+  shubham.pg:
       image: postgres:13
       ports:
         - "5432:5432"
