@@ -1,0 +1,28 @@
+services:
+  pysql:
+    build:
+      context: .
+      dockerfile: images/pythonsql/Dockerfile
+    hostname: localhost
+    ports:
+      - "8080:80"
+      volumes:
+        - "./material:/home/shubhammathur3110/material"
+        - "./data:/data"
+        environment:
+          SHELL: /bin/bash
+        networks:
+          - shubhamnw
+        depends_on:
+          - "shubham.pg"
+  shubham,pg:
+      image: postgres:13
+      ports:
+        - "5432:5432"
+      networks:
+        - shubhamnw
+      environment:
+        POSTGRES_PASSWORD: shubhamstart
+networks:
+  shubhamnw:
+    name: shubhamnw

@@ -1,0 +1,25 @@
+FROM python:3.8
+RUN apt-get update && \
+    apt-get -y install sudo telnet groff postgresql-client vim && \
+    rm -rf /var/lib/apt/list/*
+
+RUN adduser --disabled-password  shubham && \
+    echo "Data-Engineering: data" | chpasswd && \
+    adduser shubham sudo
+
+RUN sed -i "s/%sudo\tALL=(ALL:ALL) ALL/%sudo\tALL=(ALL:ALL) NOPASSWD:ALL/g" /etc/sudoers
+
+USER shubham
+
+WORKDIR /home/shubhammathur3110
+COPY images/pythonsql/labrequirements.txt /labrequirements.txt
+
+RUN python -m pip install --upgrade pip
+RUN python -m pip install -r /labrequirements.txt
+
+RUN echo "export PATH=\${PATH}:/home/shubhammathur3110/.local/bin" >> ~/.bashrc
+
+COPY --chown=shubham:shubham images/pythonsql/deploy.sh /deploy.sh
+RUN chmod u+x /deploy.sh
+
+CMD ["/deploy.sh"]
