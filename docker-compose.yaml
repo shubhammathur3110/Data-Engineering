@@ -1,4 +1,28 @@
 services:
+  itvdelab:
+    image: shubham/shubham
+    hostname: localhost
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./material:/home/shubhammathur3110/material"
+      - "./data:/data"
+    environment:
+      SHELL: /bin/bash
+    networks:
+      - shubhamnw
+    depends_on:
+      - "cluster_util_db"
+    cluster_util_db:
+      image: postgres:13
+      ports:
+        - "6432:5432"
+      volumes:
+        - ./cluster_util_db_scripts:/docker-entrypoint-initdb.d
+      networks:
+        - itvdelabnw
+      environment:
+        POSTGRES_PASSWORD: itversity
   pysql:
     build:
       context: .
@@ -6,15 +30,15 @@ services:
     hostname: localhost
     ports:
       - "8080:80"
-      volumes:
-        - "./material:/home/shubhammathur3110/material"
-        - "./data:/data"
-        environment:
-          SHELL: /bin/bash
-        networks:
-          - shubhamnw
-        depends_on:
-          - "shubham.pg"
+    volumes:
+      - "./material:/home/shubhammathur3110/material"
+      - "./data:/data"
+    environment:
+      SHELL: /bin/bash
+    networks:
+      - shubhamnw
+    depends_on:
+      - "shubham.pg"
   shubham.pg:
       image: postgres:13
       ports:
