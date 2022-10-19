@@ -1,10 +1,11 @@
 FROM python:3.8
+
 RUN apt-get update && \
     apt-get -y install sudo telnet groff postgresql-client vim && \
     rm -rf /var/lib/apt/list/*
 
-RUN adduser --disabled-password  shubham && \
-    echo "Data-Engineering: data" | chpasswd && \
+RUN adduser --disabled-password --gecos "" shubham && \
+    echo "shubham: shubham" | chpasswd && \
     adduser shubham sudo
 
 RUN sed -i "s/%sudo\tALL=(ALL:ALL) ALL/%sudo\tALL=(ALL:ALL) NOPASSWD:ALL/g" /etc/sudoers

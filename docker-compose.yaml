@@ -1,5 +1,5 @@
 services:
-  itvdelab:
+  shubhamlab:
     image: shubham/shubham
     hostname: localhost
     ports:
@@ -13,20 +13,20 @@ services:
       - shubhamnw
     depends_on:
       - "cluster_util_db"
-    cluster_util_db:
-      image: postgres:13
-      ports:
-        - "6432:5432"
-      volumes:
-        - ./cluster_util_db_scripts:/docker-entrypoint-initdb.d
-      networks:
-        - itvdelabnw
-      environment:
-        POSTGRES_PASSWORD: itversity
+  cluster_util_db:
+    image: postgres:13
+    ports:
+      - "6432:5432"
+    volumes:
+      - ./cluster_util_db_scripts:/docker-entrypoint-initdb.d
+    networks:
+      - shubhamnw
+    environment:
+      POSTGRES_PASSWORD: shubham
   pysql:
     build:
       context: .
-      dockerfile: images/pythonsql/Dockerfile
+      dockerfile: images/pythonsql/DockerFile
     hostname: localhost
     ports:
       - "8080:80"
@@ -46,7 +46,7 @@ services:
       networks:
         - shubhamnw
       environment:
-        POSTGRES_PASSWORD: shubhamstart
+        POSTGRES_PASSWORD: shubham
 networks:
   shubhamnw:
     name: shubhamnw
