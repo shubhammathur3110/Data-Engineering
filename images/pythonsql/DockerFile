@@ -20,7 +20,7 @@ RUN python -m pip install -r /labrequirements.txt
 
 RUN echo "export PATH=\${PATH}:/home/shubhammathur3110/.local/bin" >> ~/.bashrc
 
-COPY --chown=shubham:shubham images/pythonsql/deploy.sh /deploy.sh
+COPY --chown=shubhammathur3110:shubhammathur3110 images/pythonsql/deploy.sh /deploy.sh
 RUN chmod u+x /deploy.sh
 
 CMD ["/deploy.sh"]
