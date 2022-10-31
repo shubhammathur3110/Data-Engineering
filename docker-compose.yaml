@@ -27,7 +27,6 @@ services:
     build:
       context: .
       dockerfile: images/pythonsql/DockerFile
-    hostname: localhost
     ports:
       - "8888:8888"
     volumes:
@@ -40,8 +39,7 @@ services:
     depends_on:
       - "shubham.pg"
   shubham.pg:
-      image: postgres:13
-      hostname: localhost
+      image: postgres
       ports:
         - "5432:5432"
       networks:
