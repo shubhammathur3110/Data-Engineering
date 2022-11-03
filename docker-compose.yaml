@@ -27,6 +27,7 @@ services:
     build:
       context: .
       dockerfile: images/pythonsql/DockerFile
+    hostname: shubham
     ports:
       - "8888:8888"
     volumes:
@@ -41,11 +42,17 @@ services:
   shubham.pg:
       image: postgres
       ports:
-        - "5432:5432"
+       - "5432:5432"
       networks:
         - shubhamnw
       environment:
         POSTGRES_PASSWORD: shubham
+      depends_on:
+        - "adminer"
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
 networks:
   shubhamnw:
     name: shubhamnw
