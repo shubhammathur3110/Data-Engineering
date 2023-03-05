@@ -1,26 +1,26 @@
-CREATE TABLE regions
+CREATE TABLE shubham.regions
    ( region_id INTEGER 
    , region_name VARCHAR(25) 
    );
 CREATE UNIQUE INDEX reg_id_pk
-         ON regions (region_id);
-ALTER TABLE regions ADD
+         ON shubham.regions (region_id);
+ALTER TABLE shubham.regions ADD
    PRIMARY KEY (region_id)
    ;
        
-CREATE TABLE countries 
+CREATE TABLE shubham.countries
    ( country_id CHAR(2) 
    , country_name VARCHAR(40) 
    , region_id INTEGER  
    ); 
-ALTER TABLE countries ADD CONSTRAINT country_c_id_pk 
+ALTER TABLE shubham.countries ADD CONSTRAINT country_c_id_pk
    PRIMARY KEY (country_id);
-ALTER TABLE countries ADD
+ALTER TABLE shubham.countries ADD
    FOREIGN KEY (region_id)
-   REFERENCES regions(region_id) 
+   REFERENCES shubham.regions(region_id)
    ;
 
-CREATE TABLE locations
+CREATE TABLE shubham.locations
    ( location_id INTEGER
    , street_address VARCHAR(40)
    , postal_code VARCHAR(12)
@@ -29,14 +29,14 @@ CREATE TABLE locations
    , country_id CHAR(2)
    ) ;
 CREATE UNIQUE INDEX loc_id_pk
-         ON locations (location_id) ;
-ALTER TABLE locations ADD 
+         ON shubham.locations (location_id) ;
+ALTER TABLE shubham.locations ADD
 	PRIMARY KEY (location_id);
-ALTER TABLE locations ADD
+ALTER TABLE shubham.locations ADD
    	FOREIGN KEY (country_id)
-   	REFERENCES countries(country_id);
+   	REFERENCES shubham.countries(country_id);
        
-CREATE TABLE departments
+CREATE TABLE shubham.departments
    ( department_id INTEGER
    , department_name VARCHAR(30)
    , manager_id INTEGER
@@ -44,26 +44,26 @@ CREATE TABLE departments
    ) ;
 
 CREATE UNIQUE INDEX dept_id_pk
-         ON departments (department_id) ;
+         ON shubham.departments (department_id) ;
 
-ALTER TABLE departments ADD 
+ALTER TABLE shubham.departments ADD
 	PRIMARY KEY (department_id);
-ALTER TABLE departments ADD
+ALTER TABLE shubham.departments ADD
    FOREIGN KEY (location_id)
-   REFERENCES locations (location_id);
+   REFERENCES shubham.locations (location_id);
 
-CREATE TABLE jobs
+CREATE TABLE shubham.jobs
    ( job_id VARCHAR(10)
    , job_title VARCHAR(35)
    , min_salary INTEGER
    , max_salary INTEGER
    ) ;
 CREATE UNIQUE INDEX job_id_pk 
-         ON jobs (job_id) ;
-ALTER TABLE jobs ADD
+         ON shubham.jobs (job_id) ;
+ALTER TABLE shubham.jobs ADD
    PRIMARY KEY(job_id);
        
-CREATE TABLE employees
+CREATE TABLE shubham.employees
    ( employee_id INTEGER
    , first_name VARCHAR(20)
    , last_name VARCHAR(25)
@@ -77,18 +77,18 @@ CREATE TABLE employees
    , department_id INTEGER
    ) ;
 CREATE UNIQUE INDEX emp_emp_id_pk
-         ON employees (employee_id) ;
-ALTER TABLE employees ADD
+         ON shubham.employees (employee_id) ;
+ALTER TABLE shubham.employees ADD
    PRIMARY KEY (employee_id);
-ALTER TABLE employees ADD 
+ALTER TABLE shubham.employees ADD
    FOREIGN KEY (job_id)
-   REFERENCES jobs (job_id);
-ALTER TABLE employees ADD
+   REFERENCES shubham.jobs (job_id);
+ALTER TABLE shubham.employees ADD
    FOREIGN KEY (department_id)
-   REFERENCES departments (department_id);
+   REFERENCES shubham.departments (department_id);
        
        
-CREATE TABLE job_history
+CREATE TABLE shubham.job_history
    ( employee_id INTEGER
    , start_date DATE
    , end_date DATE
@@ -96,20 +96,20 @@ CREATE TABLE job_history
    , department_id INTEGER
    ) ;
 CREATE UNIQUE INDEX jhist_emp_id_st_date_pk 
-         ON job_history (employee_id, start_date) ;
-ALTER TABLE job_history ADD 
+         ON shubham.job_history (employee_id, start_date) ;
+ALTER TABLE shubham.job_history ADD
    PRIMARY KEY (employee_id, start_date);
-ALTER TABLE job_history ADD 
+ALTER TABLE shubham.job_history ADD
    FOREIGN KEY (job_id)
-   REFERENCES jobs (job_id);
-ALTER TABLE job_history ADD 
+   REFERENCES shubham.jobs (job_id);
+ALTER TABLE shubham.job_history ADD
    FOREIGN KEY (employee_id)
-   REFERENCES employees (employee_id);
-ALTER TABLE job_history ADD 
+   REFERENCES shubham.employees (employee_id);
+ALTER TABLE shubham.job_history ADD
    FOREIGN KEY (department_id)
-   REFERENCES departments (department_id);
+   REFERENCES shubham.departments (department_id);
        
-CREATE OR REPLACE VIEW emp_details_view
+CREATE OR REPLACE VIEW shubham.emp_details_view
    (employee_id,
    job_id,
    manager_id,
@@ -144,12 +144,12 @@ CREATE OR REPLACE VIEW emp_details_view
    c.country_name,
    r.region_name
    FROM
-   employees e,
-   departments d,
-   jobs j,
-   locations l,
-   countries c,
-   regions r
+   shubham.employees e,
+   shubham.departments d,
+   shubham.jobs j,
+  shubham.locations l,
+   shubham.countries c,
+   shubham.regions r
    WHERE e.department_id = d.department_id
    AND d.location_id = l.location_id
    AND l.country_id = c.country_id
@@ -157,28 +157,28 @@ CREATE OR REPLACE VIEW emp_details_view
    AND j.job_id = e.job_id;
 
 CREATE INDEX emp_department_ix
-   ON employees (department_id);
+   ON shubham.employees (department_id);
 CREATE INDEX emp_job_ix
-   ON employees (job_id);
+   ON shubham.employees (job_id);
 CREATE INDEX emp_manager_ix
-   ON employees (manager_id);
+   ON shubham.employees (manager_id);
 CREATE INDEX emp_name_ix
-   ON employees (last_name, first_name);
+   ON shubham.employees (last_name, first_name);
 CREATE INDEX dept_location_ix
-   ON departments (location_id);
+   ON shubham.departments (location_id);
 CREATE INDEX jhist_job_ix
-   ON job_history (job_id);
+   ON shubham.job_history (job_id);
 CREATE INDEX jhist_employee_ix
-   ON job_history (employee_id);
+   ON shubham.job_history (employee_id);
 CREATE INDEX jhist_department_ix
-   ON job_history (department_id);
+   ON shubham.job_history (department_id);
 CREATE INDEX loc_city_ix
-   ON locations (city);
+   ON shubham.locations (city);
 CREATE INDEX loc_state_province_ix
-   ON locations (state_province);
+   ON shubham.locations (state_province);
 CREATE INDEX loc_country_ix
-   ON locations (country_id);
+   ON shubham.locations (country_id);
 
-ALTER TABLE departments ADD
+ALTER TABLE shubham.departments ADD
    FOREIGN KEY (manager_id)
-   REFERENCES employees (employee_id);
+   REFERENCES shubham.employees (employee_id);

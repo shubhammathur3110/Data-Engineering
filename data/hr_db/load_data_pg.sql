@@ -1,147 +1,147 @@
-INSERT INTO regions VALUES 
+INSERT INTO shubham.regions VALUES
    ( 1
    , 'Europe' 
    );
-INSERT INTO regions VALUES 
+INSERT INTO shubham.regions VALUES
    ( 2
    , 'Americas' 
    );
-INSERT INTO regions VALUES 
+INSERT INTO shubham.regions VALUES
    ( 3
    , 'Asia' 
    );
-INSERT INTO regions VALUES 
+INSERT INTO shubham.regions VALUES
    ( 4
    , 'Middle East and Africa' 
    );
 
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'IT'
    , 'Italy'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'JP'
    , 'Japan'
    , 3 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'US'
    , 'United States of America'
    , 2 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'CA'
    , 'Canada'
    , 2 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'CN'
    , 'China'
    , 3 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'IN'
    , 'India'
    , 3 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'AU'
    , 'Australia'
    , 3 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'ZW'
    , 'Zimbabwe'
    , 4 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'SG'
    , 'Singapore'
    , 3 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'UK'
    , 'United Kingdom'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'FR'
    , 'France'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'DE'
    , 'Germany'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'ZM'
    , 'Zambia'
    , 4 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'EG'
    , 'Egypt'
    , 4 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'BR'
    , 'Brazil'
    , 2 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'CH'
    , 'Switzerland'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'NL'
    , 'Netherlands'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'MX'
    , 'Mexico'
    , 2 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'KW'
    , 'Kuwait'
    , 4 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'IL'
    , 'Israel'
    , 4 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'DK'
    , 'Denmark'
    , 1 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'HK'
    , 'HongKong'
    , 3 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'NG'
    , 'Nigeria'
    , 4 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'AR'
    , 'Argentina'
    , 2 
    );
-INSERT INTO countries VALUES 
+INSERT INTO shubham.countries VALUES
    ( 'BE'
    , 'Belgium'
    , 1 
    );
        
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1000 
    , '1297 Via Cola di Rie'
    , '00989'
@@ -149,7 +149,7 @@ INSERT INTO locations VALUES
    , NULL
    , 'IT'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1100 
    , '93091 Calle della Testa'
    , '10934'
@@ -157,7 +157,7 @@ INSERT INTO locations VALUES
    , NULL
    , 'IT'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1200 
    , '2017 Shinjuku-ku'
    , '1689'
@@ -165,7 +165,7 @@ INSERT INTO locations VALUES
    , 'Tokyo Prefecture'
    , 'JP'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1300 
    , '9450 Kamiya-cho'
    , '6823'
@@ -173,7 +173,7 @@ INSERT INTO locations VALUES
    , NULL
    , 'JP'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1400 
    , '2014 Jabberwocky Rd'
    , '26192'
@@ -181,7 +181,7 @@ INSERT INTO locations VALUES
    , 'Texas'
    , 'US'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1500 
    , '2011 Interiors Blvd'
    , '99236'
@@ -189,7 +189,7 @@ INSERT INTO locations VALUES
    , 'California'
    , 'US'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1600 
    , '2007 Zagora St'
    , '50090'
@@ -197,7 +197,7 @@ INSERT INTO locations VALUES
    , 'New Jersey'
    , 'US'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1700 
    , '2004 Charade Rd'
    , '98199'
@@ -205,7 +205,7 @@ INSERT INTO locations VALUES
    , 'Washington'
    , 'US'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1800 
    , '147 Spadina Ave'
    , 'M5V 2L7'
@@ -213,7 +213,7 @@ INSERT INTO locations VALUES
    , 'Ontario'
    , 'CA'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 1900 
    , '6092 Boxwood St'
    , 'YSW 9T2'
@@ -221,7 +221,7 @@ INSERT INTO locations VALUES
    , 'Yukon'
    , 'CA'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2000 
    , '40-5-12 Laogianggen'
    , '190518'
@@ -229,7 +229,7 @@ INSERT INTO locations VALUES
    , NULL
    , 'CN'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2100 
    , '1298 Vileparle (E)'
    , '490231'
@@ -237,7 +237,7 @@ INSERT INTO locations VALUES
    , 'Maharashtra'
    , 'IN'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2200 
    , '12-98 Victoria Street'
    , '2901'
@@ -245,7 +245,7 @@ INSERT INTO locations VALUES
    , 'New South Wales'
    , 'AU'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2300 
    , '198 Clementi North'
    , '540198'
@@ -253,7 +253,7 @@ INSERT INTO locations VALUES
    , NULL
    , 'SG'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2400 
    , '8204 Arthur St'
    , NULL
@@ -261,7 +261,7 @@ INSERT INTO locations VALUES
    , NULL
    , 'UK'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2500 
    , 'Magdalen Centre, The Oxford Science Park'
    , 'OX9 9ZB'
@@ -269,7 +269,7 @@ INSERT INTO locations VALUES
    , 'Oxford'
    , 'UK'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2600 
    , '9702 Chester Road'
    , '09629850293'
@@ -277,7 +277,7 @@ INSERT INTO locations VALUES
    , 'Manchester'
    , 'UK'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2700 
    , 'Schwanthalerstr. 7031'
    , '80925'
@@ -285,7 +285,7 @@ INSERT INTO locations VALUES
    , 'Bavaria'
    , 'DE'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2800 
    , 'Rua Frei Caneca 1360 '
    , '01307-002'
@@ -293,7 +293,7 @@ INSERT INTO locations VALUES
    , 'Sao Paulo'
    , 'BR'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 2900 
    , '20 Rue des Corps-Saints'
    , '1730'
@@ -301,7 +301,7 @@ INSERT INTO locations VALUES
    , 'Geneve'
    , 'CH'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 3000 
    , 'Murtenstrasse 921'
    , '3095'
@@ -309,7 +309,7 @@ INSERT INTO locations VALUES
    , 'BE'
    , 'CH'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 3100 
    , 'Pieter Breughelstraat 837'
    , '3029SK'
@@ -317,7 +317,7 @@ INSERT INTO locations VALUES
    , 'Utrecht'
    , 'NL'
    );
-INSERT INTO locations VALUES 
+INSERT INTO shubham.locations VALUES
    ( 3200 
    , 'Mariano Escobedo 9991'
    , '11932'
@@ -326,285 +326,285 @@ INSERT INTO locations VALUES
    , 'MX'
    );
        
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 10
    , 'Administration'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 20
    , 'Marketing'
    , NULL
    , 1800
    );  
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 30
    , 'Purchasing'
    , NULL
    , 1700
    );  
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 40
    , 'Human Resources'
    , NULL
    , 2400
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 50
    , 'Shipping'
    , NULL
    , 1500
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 60 
    , 'IT'
    , NULL
    , 1400
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 70 
    , 'Public Relations'
    , NULL
    , 2700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 80 
    , 'Sales'
    , NULL
    , 2500
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 90 
    , 'Executive'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 100 
    , 'Finance'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 110 
    , 'Accounting'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 120 
    , 'Treasury'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 130 
    , 'Corporate Tax'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 140 
    , 'Control And Credit'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 150 
    , 'Shareholder Services'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 160 
    , 'Benefits'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 170 
    , 'Manufacturing'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 180 
    , 'Construction'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 190 
    , 'Contracting'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 200 
    , 'Operations'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 210 
    , 'IT Support'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 220 
    , 'NOC'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 230 
    , 'IT Helpdesk'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 240 
    , 'Government Sales'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 250 
    , 'Retail Sales'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 260 
    , 'Recruiting'
    , NULL
    , 1700
    );
-INSERT INTO departments VALUES 
+INSERT INTO shubham.departments VALUES
    ( 270 
    , 'Payroll'
    , NULL
    , 1700
    );
        
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'AD_PRES'
    , 'President'
    , 20000
    , 40000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'AD_VP'
    , 'Administration Vice President'
    , 15000
    , 30000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'AD_ASST'
    , 'Administration Assistant'
    , 3000
    , 6000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'FI_MGR'
    , 'Finance Manager'
    , 8200
    , 16000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'FI_ACCOUNT'
    , 'Accountant'
    , 4200
    , 9000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'AC_MGR'
    , 'Accounting Manager'
    , 8200
    , 16000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'AC_ACCOUNT'
    , 'Public Accountant'
    , 4200
    , 9000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'SA_MAN'
    , 'Sales Manager'
    , 10000
    , 20000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'SA_REP'
    , 'Sales Representative'
    , 6000
    , 12000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'PU_MAN'
    , 'Purchasing Manager'
    , 8000
    , 15000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'PU_CLERK'
    , 'Purchasing Clerk'
    , 2500
    , 5500
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'ST_MAN'
    , 'Stock Manager'
    , 5500
    , 8500
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'ST_CLERK'
    , 'Stock Clerk'
    , 2000
    , 5000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'SH_CLERK'
    , 'Shipping Clerk'
    , 2500
    , 5500
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'IT_PROG'
    , 'Programmer'
    , 4000
    , 10000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'MK_MAN'
    , 'Marketing Manager'
    , 9000
    , 15000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'MK_REP'
    , 'Marketing Representative'
    , 4000
    , 9000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'HR_REP'
    , 'Human Resources Representative'
    , 4000
    , 9000
    );
-INSERT INTO jobs VALUES 
+INSERT INTO shubham.jobs VALUES
    ( 'PR_REP'
    , 'Public Relations Representative'
    , 4500
    , 10500
    );
        
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 100
    , 'Steven'
    , 'King'
@@ -617,7 +617,7 @@ INSERT INTO employees VALUES
    , NULL
    , 90
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 101
    , 'Neena'
    , 'Kochhar'
@@ -630,7 +630,7 @@ INSERT INTO employees VALUES
    , 100
    , 90
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 102
    , 'Lex'
    , 'De Haan'
@@ -643,7 +643,7 @@ INSERT INTO employees VALUES
    , 100
    , 90
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 103
    , 'Alexander'
    , 'Hunold'
@@ -656,7 +656,7 @@ INSERT INTO employees VALUES
    , 102
    , 60
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 104
    , 'Bruce'
    , 'Ernst'
@@ -669,7 +669,7 @@ INSERT INTO employees VALUES
    , 103
    , 60
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 105
    , 'David'
    , 'Austin'
@@ -682,7 +682,7 @@ INSERT INTO employees VALUES
    , 103
    , 60
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 106
    , 'Valli'
    , 'Pataballa'
@@ -695,7 +695,7 @@ INSERT INTO employees VALUES
    , 103
    , 60
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 107
    , 'Diana'
    , 'Lorentz'
@@ -708,7 +708,7 @@ INSERT INTO employees VALUES
    , 103
    , 60
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 108
    , 'Nancy'
    , 'Greenberg'
@@ -721,7 +721,7 @@ INSERT INTO employees VALUES
    , 101
    , 100
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 109
    , 'Daniel'
    , 'Faviet'
@@ -734,7 +734,7 @@ INSERT INTO employees VALUES
    , 108
    , 100
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 110
    , 'John'
    , 'Chen'
@@ -747,7 +747,7 @@ INSERT INTO employees VALUES
    , 108
    , 100
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 111
    , 'Ismael'
    , 'Sciarra'
@@ -760,7 +760,7 @@ INSERT INTO employees VALUES
    , 108
    , 100
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 112
    , 'Jose Manuel'
    , 'Urman'
@@ -773,7 +773,7 @@ INSERT INTO employees VALUES
    , 108
    , 100
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 113
    , 'Luis'
    , 'Popp'
@@ -786,7 +786,7 @@ INSERT INTO employees VALUES
    , 108
    , 100
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 114
    , 'Den'
    , 'Raphaely'
@@ -799,7 +799,7 @@ INSERT INTO employees VALUES
    , 100
    , 30
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 115
    , 'Alexander'
    , 'Khoo'
@@ -812,7 +812,7 @@ INSERT INTO employees VALUES
    , 114
    , 30
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 116
    , 'Shelli'
    , 'Baida'
@@ -825,7 +825,7 @@ INSERT INTO employees VALUES
    , 114
    , 30
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 117
    , 'Sigal'
    , 'Tobias'
@@ -838,7 +838,7 @@ INSERT INTO employees VALUES
    , 114
    , 30
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 118
    , 'Guy'
    , 'Himuro'
@@ -851,7 +851,7 @@ INSERT INTO employees VALUES
    , 114
    , 30
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 119
    , 'Karen'
    , 'Colmenares'
@@ -864,7 +864,7 @@ INSERT INTO employees VALUES
    , 114
    , 30
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 120
    , 'Matthew'
    , 'Weiss'
@@ -877,7 +877,7 @@ INSERT INTO employees VALUES
    , 100
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 121
    , 'Adam'
    , 'Fripp'
@@ -890,7 +890,7 @@ INSERT INTO employees VALUES
    , 100
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 122
    , 'Payam'
    , 'Kaufling'
@@ -903,7 +903,7 @@ INSERT INTO employees VALUES
    , 100
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 123
    , 'Shanta'
    , 'Vollman'
@@ -916,7 +916,7 @@ INSERT INTO employees VALUES
    , 100
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 124
    , 'Kevin'
    , 'Mourgos'
@@ -929,7 +929,7 @@ INSERT INTO employees VALUES
    , 100
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 125
    , 'Julia'
    , 'Nayer'
@@ -942,7 +942,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 126
    , 'Irene'
    , 'Mikkilineni'
@@ -955,7 +955,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 127
    , 'James'
    , 'Landry'
@@ -968,7 +968,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 128
    , 'Steven'
    , 'Markle'
@@ -981,7 +981,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 129
    , 'Laura'
    , 'Bissot'
@@ -994,7 +994,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 130
    , 'Mozhe'
    , 'Atkinson'
@@ -1007,7 +1007,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 131
    , 'James'
    , 'Marlow'
@@ -1020,7 +1020,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 132
    , 'TJ'
    , 'Olson'
@@ -1033,7 +1033,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 133
    , 'Jason'
    , 'Mallin'
@@ -1046,7 +1046,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 134
    , 'Michael'
    , 'Rogers'
@@ -1059,7 +1059,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 135
    , 'Ki'
    , 'Gee'
@@ -1072,7 +1072,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 136
    , 'Hazel'
    , 'Philtanker'
@@ -1085,7 +1085,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 137
    , 'Renske'
    , 'Ladwig'
@@ -1098,7 +1098,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 138
    , 'Stephen'
    , 'Stiles'
@@ -1111,7 +1111,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 139
    , 'John'
    , 'Seo'
@@ -1124,7 +1124,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 140
    , 'Joshua'
    , 'Patel'
@@ -1137,7 +1137,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 141
    , 'Trenna'
    , 'Rajs'
@@ -1150,7 +1150,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES 
    ( 142
    , 'Curtis'
    , 'Davies'
@@ -1163,7 +1163,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 143
    , 'Randall'
    , 'Matos'
@@ -1176,7 +1176,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 144
    , 'Peter'
    , 'Vargas'
@@ -1189,7 +1189,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 145
    , 'John'
    , 'Russell'
@@ -1202,7 +1202,7 @@ INSERT INTO employees VALUES
    , 100
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 146
    , 'Karen'
    , 'Partners'
@@ -1215,7 +1215,7 @@ INSERT INTO employees VALUES
    , 100
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 147
    , 'Alberto'
    , 'Errazuriz'
@@ -1228,7 +1228,7 @@ INSERT INTO employees VALUES
    , 100
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 148
    , 'Gerald'
    , 'Cambrault'
@@ -1241,7 +1241,7 @@ INSERT INTO employees VALUES
    , 100
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 149
    , 'Eleni'
    , 'Zlotkey'
@@ -1254,7 +1254,7 @@ INSERT INTO employees VALUES
    , 100
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 150
    , 'Peter'
    , 'Tucker'
@@ -1267,7 +1267,7 @@ INSERT INTO employees VALUES
    , 145
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 151
    , 'David'
    , 'Bernstein'
@@ -1280,7 +1280,7 @@ INSERT INTO employees VALUES
    , 145
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 152
    , 'Peter'
    , 'Hall'
@@ -1293,7 +1293,7 @@ INSERT INTO employees VALUES
    , 145
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 153
    , 'Christopher'
    , 'Olsen'
@@ -1306,7 +1306,7 @@ INSERT INTO employees VALUES
    , 145
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 154
    , 'Nanette'
    , 'Cambrault'
@@ -1319,7 +1319,7 @@ INSERT INTO employees VALUES
    , 145
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 155
    , 'Oliver'
    , 'Tuvault'
@@ -1332,7 +1332,7 @@ INSERT INTO employees VALUES
    , 145
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 156
    , 'Janette'
    , 'King'
@@ -1345,7 +1345,7 @@ INSERT INTO employees VALUES
    , 146
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 157
    , 'Patrick'
    , 'Sully'
@@ -1358,7 +1358,7 @@ INSERT INTO employees VALUES
    , 146
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 158
    , 'Allan'
    , 'McEwen'
@@ -1371,7 +1371,7 @@ INSERT INTO employees VALUES
    , 146
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 159
    , 'Lindsey'
    , 'Smith'
@@ -1384,7 +1384,7 @@ INSERT INTO employees VALUES
    , 146
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 160
    , 'Louise'
    , 'Doran'
@@ -1397,7 +1397,7 @@ INSERT INTO employees VALUES
    , 146
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 161
    , 'Sarath'
    , 'Sewall'
@@ -1410,7 +1410,7 @@ INSERT INTO employees VALUES
    , 146
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 162
    , 'Clara'
    , 'Vishney'
@@ -1423,7 +1423,7 @@ INSERT INTO employees VALUES
    , 147
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 163
    , 'Danielle'
    , 'Greene'
@@ -1436,7 +1436,7 @@ INSERT INTO employees VALUES
    , 147
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 164
    , 'Mattea'
    , 'Marvins'
@@ -1449,7 +1449,7 @@ INSERT INTO employees VALUES
    , 147
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 165
    , 'David'
    , 'Lee'
@@ -1462,7 +1462,7 @@ INSERT INTO employees VALUES
    , 147
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 166
    , 'Sundar'
    , 'Ande'
@@ -1475,7 +1475,7 @@ INSERT INTO employees VALUES
    , 147
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 167
    , 'Amit'
    , 'Banda'
@@ -1488,7 +1488,7 @@ INSERT INTO employees VALUES
    , 147
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 168
    , 'Lisa'
    , 'Ozer'
@@ -1501,7 +1501,7 @@ INSERT INTO employees VALUES
    , 148
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 169 
    , 'Harrison'
    , 'Bloom'
@@ -1514,7 +1514,7 @@ INSERT INTO employees VALUES
    , 148
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 170
    , 'Tayler'
    , 'Fox'
@@ -1527,7 +1527,7 @@ INSERT INTO employees VALUES
    , 148
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 171
    , 'William'
    , 'Smith'
@@ -1540,7 +1540,7 @@ INSERT INTO employees VALUES
    , 148
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 172
    , 'Elizabeth'
    , 'Bates'
@@ -1553,7 +1553,7 @@ INSERT INTO employees VALUES
    , 148
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 173
    , 'Sundita'
    , 'Kumar'
@@ -1566,7 +1566,7 @@ INSERT INTO employees VALUES
    , 148
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 174
    , 'Ellen'
    , 'Abel'
@@ -1579,7 +1579,7 @@ INSERT INTO employees VALUES
    , 149
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 175
    , 'Alyssa'
    , 'Hutton'
@@ -1592,7 +1592,7 @@ INSERT INTO employees VALUES
    , 149
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 176
    , 'Jonathon'
    , 'Taylor'
@@ -1605,7 +1605,7 @@ INSERT INTO employees VALUES
    , 149
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 177
    , 'Jack'
    , 'Livingston'
@@ -1618,7 +1618,7 @@ INSERT INTO employees VALUES
    , 149
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 178
    , 'Kimberely'
    , 'Grant'
@@ -1631,7 +1631,7 @@ INSERT INTO employees VALUES
    , 149
    , NULL
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 179
    , 'Charles'
    , 'Johnson'
@@ -1644,7 +1644,7 @@ INSERT INTO employees VALUES
    , 149
    , 80
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 180
    , 'Winston'
    , 'Taylor'
@@ -1657,7 +1657,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 181
    , 'Jean'
    , 'Fleaur'
@@ -1670,7 +1670,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 182
    , 'Martha'
    , 'Sullivan'
@@ -1683,7 +1683,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 183
    , 'Girard'
    , 'Geoni'
@@ -1696,7 +1696,7 @@ INSERT INTO employees VALUES
    , 120
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 184
    , 'Nandita'
    , 'Sarchand'
@@ -1709,7 +1709,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 185
    , 'Alexis'
    , 'Bull'
@@ -1722,7 +1722,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 186
    , 'Julia'
    , 'Dellinger'
@@ -1735,7 +1735,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 187
    , 'Anthony'
    , 'Cabrio'
@@ -1748,7 +1748,7 @@ INSERT INTO employees VALUES
    , 121
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 188
    , 'Kelly'
    , 'Chung'
@@ -1761,7 +1761,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 189
    , 'Jennifer'
    , 'Dilly'
@@ -1774,7 +1774,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 190
    , 'Timothy'
    , 'Gates'
@@ -1787,7 +1787,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 191
    , 'Randall'
    , 'Perkins'
@@ -1800,7 +1800,7 @@ INSERT INTO employees VALUES
    , 122
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 192
    , 'Sarah'
    , 'Bell'
@@ -1813,7 +1813,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 193
    , 'Britney'
    , 'Everett'
@@ -1826,7 +1826,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 194
    , 'Samuel'
    , 'McCain'
@@ -1839,7 +1839,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 195
    , 'Vance'
    , 'Jones'
@@ -1852,7 +1852,7 @@ INSERT INTO employees VALUES
    , 123
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 196
    , 'Alana'
    , 'Walsh'
@@ -1865,7 +1865,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 197
    , 'Kevin'
    , 'Feeney'
@@ -1878,7 +1878,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 198
    , 'Donald'
    , 'OConnell'
@@ -1891,7 +1891,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 199
    , 'Douglas'
    , 'Grant'
@@ -1904,7 +1904,7 @@ INSERT INTO employees VALUES
    , 124
    , 50
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 200
    , 'Jennifer'
    , 'Whalen'
@@ -1917,7 +1917,7 @@ INSERT INTO employees VALUES
    , 101
    , 10
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 201
    , 'Michael'
    , 'Hartstein'
@@ -1930,7 +1930,7 @@ INSERT INTO employees VALUES
    , 100
    , 20
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 202
    , 'Pat'
    , 'Fay'
@@ -1943,7 +1943,7 @@ INSERT INTO employees VALUES
    , 201
    , 20
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 203
    , 'Susan'
    , 'Mavris'
@@ -1956,7 +1956,7 @@ INSERT INTO employees VALUES
    , 101
    , 40
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 204
    , 'Hermann'
    , 'Baer'
@@ -1969,7 +1969,7 @@ INSERT INTO employees VALUES
    , 101
    , 70
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 205
    , 'Shelley'
    , 'Higgins'
@@ -1982,7 +1982,7 @@ INSERT INTO employees VALUES
    , 101
    , 110
    );
-INSERT INTO employees VALUES 
+INSERT INTO shubham.employees VALUES
    ( 206
    , 'William'
    , 'Gietz'
@@ -1996,66 +1996,66 @@ INSERT INTO employees VALUES
    , 110
    );
        
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (102
    , '13-JAN-1993'
    , '24-JUL-1998'
    , 'IT_PROG'
    , 60);
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (101
    , '21-SEP-1989'
    , '27-OCT-1993'
    , 'AC_ACCOUNT'
    , 110);
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (101
    , '28-OCT-1993'
    , '15-MAR-1997'
    , 'AC_MGR'
    , 110);
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (201
    , '17-FEB-1996'
    , '19-DEC-1999'
    , 'MK_REP'
    , 20);
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (114
    , '24-MAR-1998'
    , '31-DEC-1999'
    , 'ST_CLERK'
    , 50
    );
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (122
    , '01-JAN-1999'
    , '31-DEC-1999'
    , 'ST_CLERK'
    , 50
    );
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (200
    , '17-SEP-1987'
    , '17-JUN-1993'
    , 'AD_ASST'
    , 90
    );
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (176
    , '24-MAR-1998'
    , '31-DEC-1998'
    , 'SA_REP'
    , 80
    );
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (176
    , '01-JAN-1999'
    , '31-DEC-1999'
    , 'SA_MAN'
    , 80
    );
-INSERT INTO job_history
+INSERT INTO shubham.job_history
          VALUES (200
    , '01-JUL-1994'
    , '31-DEC-1998'
@@ -2063,36 +2063,36 @@ INSERT INTO job_history
    , 90
    );
    
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 200
 WHERE department_id = 10;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 201
 WHERE department_id = 20;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 114
 WHERE department_id = 30;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 203
 WHERE department_id = 40;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 121
 WHERE department_id = 50;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 103
 WHERE department_id = 60;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 204
 WHERE department_id = 70;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 145
 WHERE department_id = 80;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 100
 WHERE department_id = 90;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 108
 WHERE department_id = 100;
-UPDATE departments SET
+UPDATE shubham.departments SET
    manager_id = 205
 WHERE department_id = 110;
