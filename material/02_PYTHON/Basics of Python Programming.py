@@ -156,7 +156,7 @@ res_e = i1 < i2
 print(res_e)
 print("Type of res_e :- ", type(res_e))
 
-
+print("------------------------------------Conditionals in Python------------------------------------")
 # Conditionals
 # We typically use “if else” for conditionals.
 # Let us perform a few tasks to understand how conditionals are developed.
@@ -164,6 +164,40 @@ print("Type of res_e :- ", type(res_e))
 # Create a variable i with 5. Write a conditional to print whether i is even or odd.
 
 
+i = 5
+
+if i % 2 == 0:
+    print("number {} is even" .format(i))
+else:
+    print("number {} is odd " .format(i))
+
+
+print("Method 2 for conditionals")
+# The below ternary operator is used in the other programming languages but it won't work in python
+# (i % 2 == 0) ? print("number {} is even" .format(i)) : print("number {} is odd " .format(i))
+# In Python we will use ternary operator as below
+
+print("number {} is even" .format(i)) if i % 2 == 0 else print("number {} is odd " .format(i))
+
+
+# improvise it to check if i is 0 and print
+# we will use user input in this
+# In Python user input will always be a string so we need to typecast it to int as below
+i = int(input("Enter a number "))
+if i == 0:
+    print("Number i is 0")
+elif i % 2 == 0:
+    print("number i = {} is even" .format(i))
+else:
+    print("number i = {} is odd ".format(i))
+
+# Object of type None is special object which represent nothing. At times we need to check against None
+
+n = None
+print('Not None') if n else print(n)
+
+
+print("------------------------------------Loops in Python------------------------------------")
 
 
 
