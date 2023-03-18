@@ -200,4 +200,21 @@ print('Not None') if n else print(n)
 print("------------------------------------Loops in Python------------------------------------")
 
 
+for i in range(5, 11): print(i)
+
+import calendar as cal
+
+print(list(cal.month_name))
+
+for month in cal.month_name:
+    print(month)
+
+
+print("------------------------------------OS Command in Python------------------------------------")
+
+import os as os
+
+print(os.getcwd())
+
+
 
