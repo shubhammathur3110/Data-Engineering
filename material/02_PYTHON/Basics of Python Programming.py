@@ -19,7 +19,6 @@ print("-------------------------------------------------------------------------
 help(len)
 print("------------------------------------------------------------------------------------")
 
-
 # Variables and Objects
 # In Python we need not define data types for variables or objects.
 # Data types are inherited based up on the values assigned to the variables.
@@ -35,7 +34,7 @@ print("------------------------------------Variables and Objects----------------
 i = 0
 print("type of i :- ", type(i))
 print(type(i) == int)
-j: int = 10    # we can define the data type as well
+j: int = 10  # we can define the data type as well
 print("type of j :- ", type(j))
 j = "Hello"
 print(j)
@@ -45,44 +44,43 @@ print(type(j) == str)
 # Data Types - Commonly used
 # Python has several data types which are commonly used.
 # There are advanced data types such as Data Frames as part of modules such as pandas.
-    # Numeric - int, float, complex
-    # Alpha Numeric - str
-    # Collections
-        # list
-        # set
-        # dict
-    # tuple
-    # type(VARIABLE_NAME) returns the data type of the variable.
-    # All the data types are nothing but classes.
-    # We can type cast data types by invoking constructor.
+# Numeric - int, float, complex
+# Alpha Numeric - str
+# Collections
+# list
+# set
+# dict
+# tuple
+# type(VARIABLE_NAME) returns the data type of the variable.
+# All the data types are nothing but classes.
+# We can type cast data types by invoking constructor.
 
 print("------------------------------------Data Types - Commonly used---------------------------")
 s = '10'
 print(s)
 print("type of s :- ", type(s))
 print(type(int(s)))
-print(int(s))   # This is called typecasting(conversion of data type)
-
+print(int(s))  # This is called typecasting(conversion of data type)
 
 # Operators in Python
 # As any programming language Python supports all types of Operations.
 # There are several categories of operators.
 # For now, we will cover Arithmetic and Comparison Operators.
-    # Arithmetic Operators
-        # Addition (+)
-        # Subtraction (-)
-        # Multiplication (*)
-        # Division (/)
-        # Mod (%) returns reminder
-        # + is also used for concatenation of strings.
-    # Comparison Operators - typically return boolean value (True or False)
-        # Equals (==)
-        # Not Equals (!=)
-        # Negation (! before expression)
-        # Greater Than (>)
-        # Less Than (<)
-        # Greater Than or Equals To (>=)
-        # Less Than or Equals To (<=)
+# Arithmetic Operators
+# Addition (+)
+# Subtraction (-)
+# Multiplication (*)
+# Division (/)
+# Mod (%) returns reminder
+# + is also used for concatenation of strings.
+# Comparison Operators - typically return boolean value (True or False)
+# Equals (==)
+# Not Equals (!=)
+# Negation (! before expression)
+# Greater Than (>)
+# Less Than (<)
+# Greater Than or Equals To (>=)
+# Less Than or Equals To (<=)
 
 print("------------------------------------Operators in Python------------------------------------")
 
@@ -94,7 +92,6 @@ i2 = 20
 res_i = i1 + i2
 print(res_i)
 print("type of res_i :- ", type(res_i))
-
 
 # Create 2 variables f1 and f2 with values 10.5 and 15.6 respectively.
 # Add the variables and assign the result to res_f. Check the type of f1, f2 and res_f.
@@ -167,18 +164,16 @@ print("------------------------------------Conditionals in Python---------------
 i = 5
 
 if i % 2 == 0:
-    print("number {} is even" .format(i))
+    print("number {} is even".format(i))
 else:
-    print("number {} is odd " .format(i))
-
+    print("number {} is odd ".format(i))
 
 print("Method 2 for conditionals")
 # The below ternary operator is used in the other programming languages but it won't work in python
 # (i % 2 == 0) ? print("number {} is even" .format(i)) : print("number {} is odd " .format(i))
 # In Python we will use ternary operator as below
 
-print("number {} is even" .format(i)) if i % 2 == 0 else print("number {} is odd " .format(i))
-
+print("number {} is even".format(i)) if i % 2 == 0 else print("number {} is odd ".format(i))
 
 # improvise it to check if i is 0 and print
 # we will use user input in this
@@ -187,7 +182,7 @@ i = int(input("Enter a number "))
 if i == 0:
     print("Number i is 0")
 elif i % 2 == 0:
-    print("number i = {} is even" .format(i))
+    print("number i = {} is even".format(i))
 else:
     print("number i = {} is odd ".format(i))
 
@@ -196,9 +191,7 @@ else:
 n = None
 print('Not None') if n else print(n)
 
-
 print("------------------------------------Loops in Python------------------------------------")
-
 
 for i in range(5, 11): print(i)
 
@@ -209,12 +202,12 @@ print(list(cal.month_name))
 for month in cal.month_name:
     print(month)
 
-
 print("------------------------------------OS Command in Python------------------------------------")
 
 import os as os
 
 print(os.getcwd())
-
-
-
+s = os.environ.get('PATH').split(sep=';')
+print(len(s))
+for i in s:
+    print(i)
