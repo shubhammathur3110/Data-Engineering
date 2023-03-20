@@ -32,7 +32,7 @@ print("-------------------------------------------------------------------------
 # However, it is only informational and does not enforce.
 print("------------------------------------Variables and Objects----------------------------")
 i = 0
-print("type of i :- ", type(i))
+print("type of i :- ", type(input()))
 print(type(i) == int)
 j: int = 10  # we can define the data type as well
 print("type of j :- ", type(j))
@@ -211,3 +211,4 @@ s = os.environ.get('PATH').split(sep=';')
 print(len(s))
 for i in s:
     print(i)
+
