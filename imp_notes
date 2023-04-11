@@ -1,0 +1,2 @@
+to allow all the exicution policy we need to use powershell as administrator and then run the below command 
+set-executionpolicy remotesigned
